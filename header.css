@@ -1,0 +1,18 @@
+.myHeader {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(110, 165, 247);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}

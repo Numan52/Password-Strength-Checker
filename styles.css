@@ -1,0 +1,96 @@
+body {
+    font-size: 20px;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.input-field {
+    margin: 0 auto;
+    width: 40%;
+    height: 40px;
+    font-size: 30px;
+}
+
+
+.main-container {
+    text-align: center;
+    background-color: #3023e6;
+    width: 100%;
+    color: white;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.info-container {
+    max-width: 70%;
+}
+
+.pw-strength-container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.pw-strength {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.crack-time {
+    font-size: 36px;
+}
+
+.faq-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.faq-cell {
+    
+}
+
+.collapsible {
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.384);
+}
+
+.active, .collapsible:hover {
+    background-color: rgb(201, 200, 199);
+}
+
+.answer {
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    display: none;
+    overflow: hidden;
+    
+}
+
+table {
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid rgb(182, 182, 182);
+    padding: 10px;
+}
+
